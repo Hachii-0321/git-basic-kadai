@@ -12,15 +12,18 @@ d-----        2025/10/29     11:37                git_challenge
 PS C:\Users\hatta\OneDrive\デスクトップ> cd git_challenge
 PS C:\Users\hatta\OneDrive\デスクトップ\git_challenge> git init
 Initialized empty Git repository in C:/Users/hatta/OneDrive/デスクトップ/git_challenge/.git/
+PS C:\Users\hatta\OneDrive\デスクトップ\git_challenge> echo "hello,world!" >> hello_world.txt
 PS C:\Users\hatta\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
 PS C:\Users\hatta\OneDrive\デスクトップ\git_challenge> git commit -m "hello_world.txtを追加"
 [main (root-commit) 2ec4305] hello_world.txtを追加
  1 file changed, 1 insertion(+)
  create mode 100644 hello_world.txt
+PS C:\Users\hatta\OneDrive\デスクトップ\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
 PS C:\Users\hatta\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
 PS C:\Users\hatta\OneDrive\デスクトップ\git_challenge> git commit -m "日本語訳を追記"
 [main 8c108f3] 日本語訳を追記
  1 file changed, 2 insertions(+), 1 deletion(-)
 PS C:\Users\hatta\OneDrive\デスクトップ\git_challenge> git log --oneline
 8c108f3 (HEAD -> main) 日本語訳を追記
+
 2ec4305 hello_world.txtを追加
